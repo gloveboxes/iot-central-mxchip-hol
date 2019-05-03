@@ -1,5 +1,7 @@
 # Azure IoT Central and MXChip Hands-on Lab
 
+![iot central and mx chip](./media/iot-central-mxchip-banner.png)
+
 This hands-on lab is built from the "[Connect an MXChip IoT DevKit device to your Azure IoT Central application](https://docs.microsoft.com/en-us/azure/iot-central/howto-connect-devkit)" guide.
 
 ## Before you begin
