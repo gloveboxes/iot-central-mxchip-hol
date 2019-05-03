@@ -1,3 +1,7 @@
+# Azure IoT Central and MXChip Hands-on Lab
+
+This lab is agregated from "[Connect an MXChip IoT DevKit device to your Azure IoT Central application](https://docs.microsoft.com/en-us/azure/iot-central/howto-connect-devkit)"
+
 ## Before you begin
 
 To complete the steps in this article, you need the following resources:
@@ -635,11 +639,3 @@ If you configured a location property, you can visualize the location by using a
 
 You can resize the map to your desired size. Now when an operator views the dashboard in the **Device Explorer**, all the dashboard tiles that you've configured, including a location map are visible.
 
-## Next steps
-
-Now that you've learned how to set up a device template in your Azure IoT Central application, you can:
-
-> [!div class="nextstepaction"]
-> [Create a new device template version](howto-version-devicetemplate.md)
-> [Connect an MXChip IoT DevKit device to your Azure IoT Central application](howto-connect-devkit.md)
-> [Connect a generic client application to your Azure IoT Central application (Node.js)](howto-connect-nodejs.md)
