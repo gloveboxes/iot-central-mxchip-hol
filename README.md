@@ -47,7 +47,6 @@ To create a new Azure IoT Central application:
 
    - *Region* is the physical location where you’d like to create your application. Typically, you should choose the region that is physically closest to your devices to get optimal performance.You can see the regions in which Azure IoT Central is available on the [Products available by region](https://azure.microsoft.com/regions/services/) page.
 
-     > [!Note]
      > Once you choose a region, you cannot later move your application to a different region.
 
 1. Select **Create**.
@@ -208,7 +207,6 @@ If you've previously used the device and want to reconfigure it to use a differe
     PIN CODE xxxxx
     ```
 
-    > [!NOTE]
     > If the screen displays anything else, reset the device and press the **A**  and **B** buttons on the device at the same time to reboot the device.
 
 1. The device is now in access point (AP) mode. You can connect to this WiFi access point from your computer or mobile device.
@@ -240,7 +238,6 @@ When the DevKit device restarts, the screen on the device shows:
 * The number of failures.
 * The number of desired properties received and the number of reported properties sent.
 
-> [!NOTE]
 > If the device appears to loop when it tries to connect, check if the device is **Blocked** in IoT Central, and **Unblock** the device so it can connect to the app.
 
 Shake the device to send a reported property. The device sends a random number as the **Die number** device property.
@@ -283,7 +280,6 @@ git clone https://github.com/Azure/iot-central-firmware
 
 The previous command downloads the source code to a folder called `iot-central-firmware`.
 
-> [!NOTE]
 > If **git** is not installed in your development environment, you can download it from [https://git-scm.com/download](https://git-scm.com/download).
 
 ## Review the code
@@ -432,7 +428,6 @@ Measurements are the data that comes from your device. You can add multiple meas
 
 To add a new telemetry measurement, select **+ New Measurement**, choose **Telemetry** as the measurement type, and enter the details on the form.
 
-> [!NOTE]
 > The field names in the device template must match the property names in the corresponding device code in order for the telemetry measurement to be displayed in the application when a real device is connected. Do the same when you configure settings, device properties, and commands as you continue to define the device template in the following sections.
 
 For example, you can add a new temperature telemetry measurement:
@@ -445,9 +440,8 @@ For example, you can add a new temperature telemetry measurement:
 
 After you select **Save**, the **Temperature** measurement appears in the list of measurements. In a short while, you see the visualization of the temperature data from the simulated device.
 
-When displaying telemetry, you can choose from the following aggregation options: Average, Minimum, Maximum, Sum, and Count. **Average** is selected as the default aggregation on the chart. 
+When displaying telemetry, you can choose from the following aggregation options: Average, Minimum, Maximum, Sum, and Count. **Average** is selected as the default aggregation on the chart.
 
-> [!NOTE]
 > The data type of the telemetry measurement is a floating point number.
 
 ### Create an event measurement
@@ -470,7 +464,6 @@ To view more details about an event, select the event icon on the chart:
 
 ![Details for the "Fan Motor Error" event](./media/howto-set-up-template/eventmeasurementsdetail.png)
 
-> [!NOTE]
 > The data type of the event measurement is string.
 
 ### Create a state measurement
@@ -491,7 +484,6 @@ After you select **Save**, the **Fan Mode** state measurement appears in the lis
 
 If the device sends too many data points in a small duration, the state measurement appears with a different visual. Select the chart to view all the data points within that time period in chronological order. You can also narrow down the time range to see the measurement plotted on the chart.
 
-> [!NOTE]
 > The data type of the state measurement is string.
 
 ## Settings
@@ -582,7 +574,6 @@ You can create a location property as a device property that the device reports.
     | --------------| -----------|-----------|
     | Device location | deviceLocation | location  |
 
-   > [!NOTE]
    > The field names must match the property names in the corresponding device code
 
    !["Configure Device Properties" form with details for location](./media/howto-set-up-template/locationdeviceproperty2.png)
