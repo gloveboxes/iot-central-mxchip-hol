@@ -8,7 +8,6 @@ This hands-on lab is built from the "[Connect an MXChip IoT DevKit device to you
 
 To complete the steps in this article, you need the following resources:
 
-1. An Azure IoT Central application created from the **Sample Devkits** application template. For more information, see the [create an application quickstart](quick-deploy-iot-central.md).
 1. A DevKit device. To purchase a DevKit device, visit [MXChip IoT DevKit](https://microsoft.github.io/azure-iot-developer-kit/).
 
 # Create an Azure IoT Central application
