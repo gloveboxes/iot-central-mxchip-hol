@@ -10,7 +10,7 @@ There are three main sections in this hands-on lab.
 
 2. [Connect an MXChip IoT DevKit device to your Azure IoT Central application](#connect-an-mxchip-iot-devkit-device-to-your-azure-iot-central-application)
 
-3. [Set up a device template (Advanced)](#Set-up-a-device-template)
+3. [Set up a device template (Advanced)](#set-up-a-device-template)
 
 ## Before you begin
 
