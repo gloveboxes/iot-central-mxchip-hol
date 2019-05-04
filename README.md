@@ -6,17 +6,17 @@ This hands-on lab is repurposed content from the "[Connect an MXChip IoT DevKit 
 
 There are three main sections in this hands-on lab.
 
-1. [Create an Azure IoT Central application](#create-an-azure-iot-central-application)
+1. [Creating an Azure IoT Central application](#creating-an-azure-iot-central-application)
 
-2. [Connect an MXChip IoT DevKit device to your Azure IoT Central application](#connect-an-mxchip-iot-devkit-device-to-your-azure-iot-central-application)
+2. [Connecting an MXChip IoT DevKit device to your Azure IoT Central application](#connecting-an-mxchip-iot-devkit-device-to-your-azure-iot-central-application)
 
-3. [Set up a device template (Advanced)](#set-up-a-device-template)
+3. [Setting up a device template (Advanced)](#setting-up-a-device-template)
 
 ## Before you begin
 
 To complete the steps in this hands-on lab you need a DevKit device. To purchase a DevKit device, visit [MXChip IoT DevKit](https://microsoft.github.io/azure-iot-developer-kit/).
 
-# Create an Azure IoT Central application
+# Creating an Azure IoT Central application
 
 As a _builder_, you use the Azure IoT Central UI to define your Microsoft Azure IoT Central application. This quickstart shows you how to create an Azure IoT Central application that contains a sample _device template_ and simulated _devices_.
 
@@ -135,7 +135,7 @@ The administration page contains links to the tools an administrator uses such a
 ## Next steps
 
 
-# Connect an MXChip IoT DevKit device to your Azure IoT Central application
+# Connecting an MXChip IoT DevKit device to your Azure IoT Central application
 
 This article describes how, as a device developer, to connect a MXChip IoT DevKit (DevKit) device to your Microsoft Azure IoT Central application.
 
@@ -364,8 +364,7 @@ Toggle settings
 
 ## Next steps
 
-
-# Set up a device template
+# Setting up a device template
 
 A device template is a blueprint that defines the characteristics and behaviors of a type of device that connects to an Azure IoT Central application.
 
