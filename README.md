@@ -4,7 +4,7 @@
 
 This hands-on lab is repurposed content from the "[Connect an MXChip IoT DevKit device to your Azure IoT Central application](https://docs.microsoft.com/en-us/azure/iot-central/howto-connect-devkit)" guide.
 
-The are three main sections in this hands-on lab.
+There are three main sections in this hands-on lab.
 
 1. [Create an Azure IoT Central application](#Create-an-Azure-IoT-Central-application)
 
