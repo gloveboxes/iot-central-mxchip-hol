@@ -311,12 +311,14 @@ An application created from the Sample Devkits application template includes a M
 | gyroscopeY     | mdps   | -2000   | 2000    | 0              |
 | gyroscopeZ     | mdps   | -2000   | 2000    | 0              |
 
-#### States 
+#### States
+
 | Name          | Display name   | NORMAL | CAUTION | DANGER | 
 | ------------- | -------------- | ------ | ------- | ------ | 
 | DeviceState   | Device State   | Green  | Orange  | Red    | 
 
-#### Events 
+#### Events
+
 | Name             | Display name      | 
 | ---------------- | ----------------- | 
 | ButtonBPressed   | Button B Pressed  | 
