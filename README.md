@@ -28,7 +28,7 @@ To create a new Azure IoT Central application:
 
 1. Choose a friendly application name, such as **Contoso IoT**. Azure IoT Central generates a unique URL prefix for you. You can change this URL prefix to something more memorable.
 
-1. Choose the **Sample Devkits" application template.
+1. Choose the **Sample Devkits** application template.
 
 1. Select **Create**.
 
