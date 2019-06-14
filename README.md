@@ -1,8 +1,8 @@
 # Azure IoT Central and MXChip Hands-on Lab
 
-![iot central and mx chip](./media/iot-central-mxchip-banner.png)
+![iot central and mx chip](/media/iot-central-mxchip-banner.png)
 
-This hands-on lab is repurposed content from the "[Connect an MXChip IoT DevKit device to your Azure IoT Central application](https://docs.microsoft.com/en-us/azure/iot-central/howto-connect-devkit?WT.mc_id=github-blog-dglover?WT.mc_id=github-blog-dglover)" guide.
+This hands-on lab is repurposed content from the "[Connect an MXChip IoT DevKit device to your Azure IoT Central application](https://docs.microsoft.com/en-us/azure/iot-central/howto-connect-devkit?WT.mc_id=github-blog-dglover)" guide.
 
 There are three main sections in this hands-on lab.
 
@@ -18,7 +18,7 @@ To complete the steps in this hands-on lab you need a DevKit device. To purchase
 
 # Creating an Azure IoT Central application
 
-![](./media/azure_iot_central.png)
+![](/media/azure_iot_central.png)
 
 As a _builder_, you use the Azure IoT Central UI to define your Microsoft Azure IoT Central application. This quickstart shows you how to create an Azure IoT Central application that contains a sample _device template_ and simulated _devices_.
 
@@ -26,7 +26,7 @@ Navigate to the Azure IoT Central [Application Manager](https://aka.ms/iotcentra
 
 To start creating a new Azure IoT Central application, select **New Application**. This takes you to the **Create Application** page.
 
-![Azure IoT Central Create Application page](media/quick-deploy-iot-central/iotcentralcreate.png)
+![Azure IoT Central Create Application page](/media/quick-deploy-iot-central/iotcentralcreate.png)
 
 To create a new Azure IoT Central application:
 
@@ -66,13 +66,13 @@ As an _operator_, you use the Azure IoT Central UI to manage your Azure IoT Cent
 
 Use the left navigation menu to access the different areas of the application. You can expand or collapse the navigation bar by selecting **<** or **>**:
 
-![Left navigation menu](media/overview-iot-central-tour/navigationbar-description.png)
+![Left navigation menu](/media/overview-iot-central-tour/navigationbar-description.png)
 
 ## Search, help, and support
 
 The top menu appears on every page:
 
-![Toolbar](media/overview-iot-central-tour/toolbar.png)
+![Toolbar](/media/overview-iot-central-tour/toolbar.png)
 
 - To search for device templates and devices, enter a **Search** value.
 - To change the UI language or theme, choose the **Settings** icon.
@@ -81,17 +81,17 @@ The top menu appears on every page:
 
 You can choose between a light theme or a dark theme for the UI:
 
-![Choose a theme for the UI](media/overview-iot-central-tour/themes.png)
+![Choose a theme for the UI](/media/overview-iot-central-tour/themes.png)
 
 ## Dashboard
 
-![Dashboard](media/overview-iot-central-tour/homepage.png)
+![Dashboard](/media/overview-iot-central-tour/homepage.png)
 
 The dashboard is the first page you see when you sign in to your Azure IoT Central application. As a builder, you can customize the application dashboard for other users by adding tiles. To learn more, see the [Customize the Azure IoT Central operator's view](https://docs.microsoft.com/en-us/azure/iot-central/tutorial-customize-operator?WT.mc_id=github-blog-dglover) tutorial. Users can also [create their own personal dashboards](https://docs.microsoft.com/en-us/azure/iot-central/howto-personalize-dashboard?WT.mc_id=github-blog-dglover).
 
 ## Device explorer
 
-![Explorer page](media/overview-iot-central-tour/explorer.png)
+![Explorer page](/media/overview-iot-central-tour/explorer.png)
 
 The explorer page shows the _devices_ in your Azure IoT Central application grouped by _device template_.
 
@@ -100,37 +100,37 @@ The explorer page shows the _devices_ in your Azure IoT Central application grou
 
 ## Device sets
 
-![Device Sets page](media/overview-iot-central-tour/devicesets.png)
+![Device Sets page](/media/overview-iot-central-tour/devicesets.png)
 
 The _device sets_ page shows device sets created by the builder. A device set is a collection of related devices. A builder defines a query to identify the devices that are included in a device set. You use device sets when you customize the analytics in your application. To learn more, see the [Use device sets in your Azure IoT Central application](https://docs.microsoft.com/en-us/azure/iot-central/howto-use-device-sets?WT.mc_id=github-blog-dglover) article.
 
 ## Analytics
 
-![Analytics page](media/overview-iot-central-tour/analytics.png)
+![Analytics page](/media/overview-iot-central-tour/analytics.png)
 
 The analytics page shows charts that help you understand how the devices connected to your application are behaving. An operator uses this page to monitor and investigate issues with connected devices. The builder can define the charts shown on this page. To learn more, see the [Create custom analytics for your Azure IoT Central application](https://docs.microsoft.com/en-us/azure/iot-central/howto-use-device-sets?WT.mc_id=github-blog-dglover) article.
 
 ## Jobs
 
-![Jobs page](media/overview-iot-central-tour/jobs.png)
+![Jobs page](/media/overview-iot-central-tour/jobs.png)
 
 The jobs page allows you to perform bulk device management operations onto your devices. The builder uses this page to update device properties, settings, and commands. To learn more, see the [Run a job](https://docs.microsoft.com/en-us/azure/iot-central/howto-run-a-job?WT.mc_id=github-blog-dglover) article.
 
 ## Device Templates
 
-![Device Templates page](media/overview-iot-central-tour/templates.png)
+![Device Templates page](/media/overview-iot-central-tour/templates.png)
 
 The device templates page is where a builder creates and manages the device templates in the application. To learn more, see the [Define a new device type in your Azure IoT Central application](https://docs.microsoft.com/en-us/azure/iot-central/tutorial-define-device-type?WT.mc_id=github-blog-dglover) tutorial.
 
 ## Continuous Data Export
 
-![Continuous Data Export page](media/overview-iot-central-tour/export.png)
+![Continuous Data Export page](/media/overview-iot-central-tour/export.png)
 
 The continuous data export page is where an administrator defines how to export data, such as telemetry, from the application. Other services can store the exported data or use it for analysis. To learn more, see the [Export your data in Azure IoT Central](https://docs.microsoft.com/en-us/azure/iot-central/howto-export-data?WT.mc_id=github-blog-dglover) article.
 
 ## Administration
 
-![Administration page](media/overview-iot-central-tour/administration.png)
+![Administration page](/media/overview-iot-central-tour/administration.png)
 
 The administration page contains links to the tools an administrator uses such as defining users and roles in the application. To learn more, see the [Administer your Azure IoT Central application](https://docs.microsoft.com/en-us/azure/iot-central/howto-administer?WT.mc_id=github-blog-dglover) article.
 
@@ -138,7 +138,7 @@ The administration page contains links to the tools an administrator uses such a
 
 # Connecting an MXChip IoT DevKit device to your Azure IoT Central application
 
-![](./media/mxchip.jpg)
+![](/media/mxchip.jpg)
 
 This article describes how, as a device developer, to connect a MXChip IoT DevKit (DevKit) device to your Microsoft Azure IoT Central application.
 
@@ -167,11 +167,11 @@ In your Azure IoT Central application, add a real device from the **MXChip** dev
     * Enter a lowercase **Device ID**, or use the suggested **Device ID**.
     * Enter a **Device Name**, or use the suggested name
 
-    ![Add Device](media/howto-connect-devkit/add-device.png)
+    ![Add Device](/media/howto-connect-devkit/add-device.png)
 
 1. To get the device connection details, **Scope ID**, **Device ID**, and **Primary key**, select **Connect** on the device page.
 
-    ![Connection details](media/howto-connect-devkit/device-connect.png)
+    ![Connection details](/media/howto-connect-devkit/device-connect.png)
 
 1. Make a note of the connection details. You're temporarily disconnected from the internet when you prepare your DevKit device in the next step.
 
@@ -202,7 +202,7 @@ If you've previously used the device and want to reconfigure it to use a differe
 
 1. Open your web browser and navigate to [http://192.168.0.1/start](http://192.168.0.1/start). The following web page displays:
 
-    ![Device configuration page](media/howto-connect-devkit/configpage.png)
+    ![Device configuration page](/media/howto-connect-devkit/configpage.png)
 
     On the web page, enter:
     - The name of your WiFi network
@@ -213,7 +213,7 @@ If you've previously used the device and want to reconfigure it to use a differe
 
 1. After you choose **Configure Device**, you see this page:
 
-    ![Device configured](media/howto-connect-devkit/deviceconfigured.png)
+    ![Device configured](/media/howto-connect-devkit/deviceconfigured.png)
 
 1. Press the **Reset** button on your device.
 
@@ -233,31 +233,31 @@ You can view the telemetry measurements and reported property values, and config
 
 1. Use **Device Explorer** to navigate to the **Measurements** page for the real MXChip device you added:
 
-    ![Navigate to real device](media/howto-connect-devkit/realdevicenew.png)
+    ![Navigate to real device](/media/howto-connect-devkit/realdevicenew.png)
 
 1. On the **Measurements** page, you can see the telemetry coming from the MXChip device:
 
-    ![View telemetry from real device](media/howto-connect-devkit/devicetelemetrynew.png)
+    ![View telemetry from real device](/media/howto-connect-devkit/devicetelemetrynew.png)
 
 1. On the **Properties** page, you can view the last die number and the device location reported by the device:
 
-    ![View device properties](media/howto-connect-devkit/devicepropertynew.png)
+    ![View device properties](/media/howto-connect-devkit/devicepropertynew.png)
 
 1. On the **Settings** page, you can update the settings on the MXChip device:
 
-    ![View device settings](media/howto-connect-devkit/devicesettingsnew.png)
+    ![View device settings](/media/howto-connect-devkit/devicesettingsnew.png)
 
 1. On the **Commands** page, you can call the **Echo** and **Countdown** commands:
 
-    ![Call commands](media/howto-connect-devkit/devicecommands.png)
+    ![Call commands](/media/howto-connect-devkit/devicecommands.png)
 
 1. On the **Dashboard** page, you can see the location map
 
-    ![View device dashboard](media/howto-connect-devkit/devicedashboardnew.png)
+    ![View device dashboard](/media/howto-connect-devkit/devicedashboardnew.png)
 
 ## MXChip Development with Visual Studio Code (Advanced)
 
-![MX Chip development with Visual Studio Code](./media/vs-code.png)
+![MX Chip development with Visual Studio Code](/media/vs-code.png)
 
 If you want to explore and modify the device code, you can download it from GitHub. If you plan to modify the code, you should follow these instructions to [prepare the development environment](https://microsoft.github.io/azure-iot-developer-kit/docs/get-started/#step-5-prepare-the-development-environment) for your desktop operating system.
 
@@ -275,7 +275,7 @@ The previous command downloads the source code to a folder called `iot-central-f
 
 Use Visual Studio Code to open the `MXCHIP/mxchip_advanced` folder in the `iot-central-firmware` folder:
 
-![Visual Studio Code](media/howto-connect-devkit/vscodeview.png)
+![Visual Studio Code](/media/howto-connect-devkit/vscodeview.png)
 
 To see how the telemetry is sent to the Azure IoT Central application, open the **telemetry.cpp** file in the `src` folder:
 
@@ -400,7 +400,7 @@ From this device template, an operator can create and connect real fan devices w
 
 3. To get started quickly, choose from the existing pre-built templates. Otherwise, select **Custom**, enter a name, and click **Create** to build your own template from scratch.
 
-   ![Device template library](./media/howto-set-up-template/newtemplate.png)
+   ![Device template library](/media/howto-set-up-template/newtemplate.png)
 
 4. When you create a custom template, you see the **Device Details** page for your new device template. IoT Central automatically creates a simulated device when you create a device template. A simulated device lets you test the behavior of your application before you connect a real device.
 
@@ -426,7 +426,7 @@ For example, you can add a new temperature telemetry measurement:
 | --------------------| ------------- |-----------|-------|---|
 | Temperature         | temp          |  degC     |  0    |100|
 
-!["Create Telemetry" form with details for temperature measurement](./media/howto-set-up-template/measurementsform.png)
+!["Create Telemetry" form with details for temperature measurement](/media/howto-set-up-template/measurementsform.png)
 
 After you select **Save**, the **Temperature** measurement appears in the list of measurements. In a short while, you see the visualization of the temperature data from the simulated device.
 
@@ -446,13 +446,13 @@ For example, you can add a new **Fan Motor Error** event.
 | --------------------| ------------- |-----------|
 | Fan Motor Error     | fanmotorerror |  Error    |
 
-!["Create Event" form with details for a fan motor event](./media/howto-set-up-template/eventmeasurementsform.png)
+!["Create Event" form with details for a fan motor event](/media/howto-set-up-template/eventmeasurementsform.png)
 
 After you select **Save**, the **Fan Motor Error** measurement appears in the list of measurements. In a short while, you see the visualization of the event data from the simulated device.
 
 To view more details about an event, select the event icon on the chart:
 
-![Details for the "Fan Motor Error" event](./media/howto-set-up-template/eventmeasurementsdetail.png)
+![Details for the "Fan Motor Error" event](/media/howto-set-up-template/eventmeasurementsdetail.png)
 
 > The data type of the event measurement is string.
 
@@ -468,7 +468,7 @@ For example, you can add a new **Fan Mode** state that has two possible values t
 | -------------| ------------- |----------- | -------------| -----------| -------------|
 | Fan Mode     | fanmode       |  1         | Operating    |     0      | Stopped      |
 
-!["Edit State" form with details for fan mode](./media/howto-set-up-template/statemeasurementsform.png)
+!["Edit State" form with details for fan mode](/media/howto-set-up-template/statemeasurementsform.png)
 
 After you select **Save**, the **Fan Mode** state measurement appears in the list of measurements. In a short while, you see the visualization of the state data from the simulated device.
 
@@ -494,7 +494,7 @@ For example, you can add a new fan speed setting by selecting **Settings** and e
 | --------------| ------------- |---------| ---------|---- |
 | Fan Speed     | fanSpeed      | RPM     | 2        | 0   |
 
-!["Configure Number" form with details for speed settings](./media/howto-set-up-template/settingsform.png)
+!["Configure Number" form with details for speed settings](/media/howto-set-up-template/settingsform.png)
 
 After you select **Save**, the **Fan Speed** setting appears as a tile. An operator can use the setting on the **Device Explorer** page to change the fan speed of the device.
 
@@ -513,7 +513,7 @@ For example, you can add the last serviced date for the device as a new **Date**
 | --------------| -----------|-----------------|
 | Last serviced      | lastServiced        | 01/29/2019     |
 
-!["Configure Last Serviced" form on the "Properties" tab](./media/howto-set-up-template/propertiesform.png)
+!["Configure Last Serviced" form on the "Properties" tab](/media/howto-set-up-template/propertiesform.png)
 
 After you select **Save**, the last serviced date for the device appears as a tile.
 
@@ -530,7 +530,7 @@ You can add two types of location properties:
 
 #### Add location as an application property
 
-![](./media/azure-maps.png)
+![](/media/azure-maps.png)
 
 You can create a location property as an application property by using Azure Maps in your IoT Central application. For example, you can add the device installation address:
 
@@ -544,7 +544,7 @@ You can create a location property as an application property by using Azure Map
     | --------------| -----------|---------| 
     | Installation address | installAddress | Microsoft, 1 Microsoft Way, Redmond, WA 98052   |
 
-   !["Configure Location" form with details for location](./media/howto-set-up-template/locationcloudproperty2.png)
+   !["Configure Location" form with details for location](/media/howto-set-up-template/locationcloudproperty2.png)
 
    There are two supported formats to add a location:
    - **Location as an address**
@@ -568,7 +568,7 @@ You can create a location property as a device property that the device reports.
 
    > The field names must match the property names in the corresponding device code
 
-   !["Configure Device Properties" form with details for location](./media/howto-set-up-template/locationdeviceproperty2.png)
+   !["Configure Device Properties" form with details for location](/media/howto-set-up-template/locationdeviceproperty2.png)
 
 Once the real device is connected, the location that you added as a device property is updated with the value sent by the device. Now that you've configured your location property, you can [add a map to visualize the location in the device dashboard](#add-an-azure-maps-location-in-the-dashboard).
 
@@ -588,7 +588,7 @@ For example, you can add a new **Echo** command by selecting the **Commands** ta
 | --------------| -----------|---------------- | --------- |
 | Echo Command  | echo       |  30             | text      |
 
-!["Configure Command" form with details for echo](./media/howto-set-up-template/commandsecho.png)
+!["Configure Command" form with details for echo](/media/howto-set-up-template/commandsecho.png)
 
 After you select **Save**, the **Echo** command appears as a tile and is ready to be used from the **Device Explorer** when your real device connects. The field names of your command must match the property names in the corresponding device code in order for commands to be run successfully.
 
@@ -604,7 +604,7 @@ The dashboard is where an operator can go to see information about a device. As 
 
 For example, you can add a **Settings and Properties** tile to show a selection of the current values of settings and properties by selecting the **Dashboard** tab and the tile from the Library:
 
-!["Configure Device Details" form with details for settings and properties](./media/howto-set-up-template/dashboardsettingsandpropertiesform.png)
+!["Configure Device Details" form with details for settings and properties](/media/howto-set-up-template/dashboardsettingsandpropertiesform.png)
 
 Now when an operator views the dashboard in the **Device Explorer**, they can see the tile.
 
@@ -618,7 +618,7 @@ If you configured a location property, you can visualize the location by using a
 
 1. Give the map a title. The following example has the title **Installation Location**. Then choose the location property that you previously configured on the **Properties** tab. In the following example, **Installation address** is selected.
 
-   !["Configure Map" form with details for title and properties](./media/howto-set-up-template/locationcloudproperty5map.png)
+   !["Configure Map" form with details for title and properties](/media/howto-set-up-template/locationcloudproperty5map.png)
 
 4. Select **Save**. The map tile now displays the location that you selected.
 
