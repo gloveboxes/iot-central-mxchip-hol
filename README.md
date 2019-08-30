@@ -61,7 +61,6 @@ As an _operator_, you use the Azure IoT Central UI to manage your Azure IoT Cent
 - Troubleshoot and remediate issues with your devices.
 - Provision new devices.
 
-
 ## Use the left navigation menu
 
 Use the left navigation menu to access the different areas of the application. You can expand or collapse the navigation bar by selecting **<** or **>**:
@@ -89,7 +88,7 @@ You can choose between a light theme or a dark theme for the UI:
 
 The dashboard is the first page you see when you sign in to your Azure IoT Central application. As a builder, you can customize the application dashboard for other users by adding tiles. To learn more, see the [Customize the Azure IoT Central operator's view](https://docs.microsoft.com/en-us/azure/iot-central/tutorial-customize-operator?WT.mc_id=github-blog-dglover) tutorial. Users can also [create their own personal dashboards](https://docs.microsoft.com/en-us/azure/iot-central/howto-personalize-dashboard?WT.mc_id=github-blog-dglover).
 
-## Device explorer
+## Devices
 
 ![Explorer page](/media/overview-iot-central-tour/explorer.png)
 
@@ -162,18 +161,18 @@ For full details about the configuration, see [MXChip Device template details](#
 
 In your Azure IoT Central application, add a real device from the **MXChip** device template and make a note of the device connection details: **Scope ID, Device ID, and Primary key**:
 
-1. Add a **real device** from Device Explorer, select **+New > Real** to add a real device.
+1. Add a **real device** from Devices, select **+New > Real** to add a real device.
 
-    * Enter a lowercase **Device ID**, or use the suggested **Device ID**.
-    * Enter a **Device Name**, or use the suggested name
+    - Enter a lowercase **Device ID**, or use the suggested **Device ID**.
+    - Enter a **Device Name**, or use the suggested name
 
     ![Add Device](/media/howto-connect-devkit/add-device.png)
 
-1. To get the device connection details, **Scope ID**, **Device ID**, and **Primary key**, select **Connect** on the device page.
+2. To get the device connection details, **Scope ID**, **Device ID**, and **Primary key**, select **Connect** on the device page.
 
     ![Connection details](/media/howto-connect-devkit/device-connect.png)
 
-1. Make a note of the connection details. You're temporarily disconnected from the internet when you prepare your DevKit device in the next step.
+3. Make a note of the connection details. You're temporarily disconnected from the internet when you prepare your DevKit device in the next step.
 
 ### Prepare the DevKit device
 
@@ -181,13 +180,13 @@ If you've previously used the device and want to reconfigure it to use a differe
 
 #### To prepare the DevKit device
 
-1. Download the latest pre-built Azure IoT Central firmware for the MXChip from the [releases](https://aka.ms/iotcentral-docs-MXChip-releases) page on GitHub.
+1. Download the v2.1.0 release of the pre-built Azure IoT Central firmware for the MXChip from the [releases](https://github.com/Azure/iot-central-firmware/releases/tag/mxchip-v2.1.0) page on GitHub.
 1. Connect the DevKit device to your development machine using a USB cable. In Windows, a file explorer window opens on a drive mapped to the storage on the DevKit device. For example, the drive might be called **AZ3166 (D:)**.
 1. Drag the **iotCentral.bin** file onto the drive window. When the copying is complete, the device reboots with the new firmware.
 
 1. When the DevKit device restarts, the following screen displays:
 
-    ```
+    ```sh
     Connect HotSpot:
     AZ3166_??????
     go-> 192.168.0.1
@@ -231,7 +230,7 @@ Shake the device to send a reported property. The device sends a random number a
 
 You can view the telemetry measurements and reported property values, and configure settings in Azure IoT Central:
 
-1. Use **Device Explorer** to navigate to the **Measurements** page for the real MXChip device you added:
+1. Use **Devices** to navigate to the **Measurements** page for the real MXChip device you added:
 
     ![Navigate to real device](/media/howto-connect-devkit/realdevicenew.png)
 
@@ -390,7 +389,7 @@ For example, a builder can create a device template for an IoT-connected fan tha
 From this device template, an operator can create and connect real fan devices with names such as **fan-1** and **fan-2**. All these fans have measurements, settings, properties, rules, and a dashboard that users of your application can monitor and manage.
 
 
-> Only builders and administrators can create, edit, and delete device templates. Any user can create devices on the **Device Explorer** page from existing device templates.
+> Only builders and administrators can create, edit, and delete device templates. Any user can create devices on the **Devices** page from existing device templates.
 
 ## Create a device template
 
@@ -496,7 +495,7 @@ For example, you can add a new fan speed setting by selecting **Settings** and e
 
 !["Configure Number" form with details for speed settings](/media/howto-set-up-template/settingsform.png)
 
-After you select **Save**, the **Fan Speed** setting appears as a tile. An operator can use the setting on the **Device Explorer** page to change the fan speed of the device.
+After you select **Save**, the **Fan Speed** setting appears as a tile. An operator can use the setting on the **Devices** page to change the fan speed of the device.
 
 ## Properties
 
@@ -517,7 +516,7 @@ For example, you can add the last serviced date for the device as a new **Date**
 
 After you select **Save**, the last serviced date for the device appears as a tile.
 
-After you create the tile, you can change the application property value in the **Device Explorer**.
+After you create the tile, you can change the application property value in the **Devices**.
 
 ### Create a location property through Azure Maps
 
@@ -550,7 +549,7 @@ You can create a location property as an application property by using Azure Map
    - **Location as an address**
    - **Location as coordinates**
 
-4. Select **Save**. An operator can update the location value in the **Device Explorer**.
+4. Select **Save**. An operator can update the location value in the **Devices**.
 
 #### Add location as a device property
 
@@ -590,7 +589,7 @@ For example, you can add a new **Echo** command by selecting the **Commands** ta
 
 !["Configure Command" form with details for echo](/media/howto-set-up-template/commandsecho.png)
 
-After you select **Save**, the **Echo** command appears as a tile and is ready to be used from the **Device Explorer** when your real device connects. The field names of your command must match the property names in the corresponding device code in order for commands to be run successfully.
+After you select **Save**, the **Echo** command appears as a tile and is ready to be used from the **Devices** when your real device connects. The field names of your command must match the property names in the corresponding device code in order for commands to be run successfully.
 
 ## Rules
 
@@ -606,7 +605,7 @@ For example, you can add a **Settings and Properties** tile to show a selection 
 
 !["Configure Device Details" form with details for settings and properties](/media/howto-set-up-template/dashboardsettingsandpropertiesform.png)
 
-Now when an operator views the dashboard in the **Device Explorer**, they can see the tile.
+Now when an operator views the dashboard in the **Devices**, they can see the tile.
 
 ### Add an Azure Maps location in the dashboard
 
@@ -620,7 +619,6 @@ If you configured a location property, you can visualize the location by using a
 
    !["Configure Map" form with details for title and properties](/media/howto-set-up-template/locationcloudproperty5map.png)
 
-4. Select **Save**. The map tile now displays the location that you selected.
+1. Select **Save**. The map tile now displays the location that you selected.
 
-You can resize the map to your desired size. Now when an operator views the dashboard in the **Device Explorer**, all the dashboard tiles that you've configured, including a location map are visible.
-
+You can resize the map to your desired size. Now when an operator views the dashboard in the **Devices**, all the dashboard tiles that you've configured, including a location map are visible.
