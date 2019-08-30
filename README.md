@@ -121,11 +121,11 @@ The jobs page allows you to perform bulk device management operations onto your 
 
 The device templates page is where a builder creates and manages the device templates in the application. To learn more, see the [Define a new device type in your Azure IoT Central application](https://docs.microsoft.com/en-us/azure/iot-central/tutorial-define-device-type?WT.mc_id=github-blog-dglover) tutorial.
 
-## Continuous Data Export
+## Data Export
 
-![Continuous Data Export page](/media/overview-iot-central-tour/export.png)
+![Data Export page](/media/overview-iot-central-tour/export.png)
 
-The continuous data export page is where an administrator defines how to export data, such as telemetry, from the application. Other services can store the exported data or use it for analysis. To learn more, see the [Export your data in Azure IoT Central](https://docs.microsoft.com/en-us/azure/iot-central/howto-export-data?WT.mc_id=github-blog-dglover) article.
+The data export page is where an administrator defines how to export data, such as telemetry, from the application. Other services can store the exported data or use it for analysis. To learn more, see the [Export your data in Azure IoT Central](https://docs.microsoft.com/en-us/azure/iot-central/howto-export-data?WT.mc_id=github-blog-dglover) article.
 
 ## Administration
 
@@ -220,9 +220,9 @@ If you've previously used the device and want to reconfigure it to use a differe
 
 When the DevKit device restarts, the screen on the device shows:
 
-* The number of telemetry messages sent.
-* The number of failures.
-* The number of desired properties received and the number of reported properties sent.
+- The number of telemetry messages sent.
+- The number of failures.
+- The number of desired properties received and the number of reported properties sent.
 
 > If the device appears to loop when it tries to connect, check if the device is **Blocked** in IoT Central, and **Unblock** the device so it can connect to the app.
 
@@ -234,23 +234,23 @@ You can view the telemetry measurements and reported property values, and config
 
     ![Navigate to real device](/media/howto-connect-devkit/realdevicenew.png)
 
-1. On the **Measurements** page, you can see the telemetry coming from the MXChip device:
+2. On the **Measurements** page, you can see the telemetry coming from the MXChip device:
 
     ![View telemetry from real device](/media/howto-connect-devkit/devicetelemetrynew.png)
 
-1. On the **Properties** page, you can view the last die number and the device location reported by the device:
+3. On the **Properties** page, you can view the last die number and the device location reported by the device:
 
     ![View device properties](/media/howto-connect-devkit/devicepropertynew.png)
 
-1. On the **Settings** page, you can update the settings on the MXChip device:
+4. On the **Settings** page, you can update the settings on the MXChip device:
 
     ![View device settings](/media/howto-connect-devkit/devicesettingsnew.png)
 
-1. On the **Commands** page, you can call the **Echo** and **Countdown** commands:
+5. On the **Commands** page, you can call the **Echo** and **Countdown** commands:
 
     ![Call commands](/media/howto-connect-devkit/devicecommands.png)
 
-1. On the **Dashboard** page, you can see the location map
+6. On the **Dashboard** page, you can see the location map
 
     ![View device dashboard](/media/howto-connect-devkit/devicedashboardnew.png)
 
