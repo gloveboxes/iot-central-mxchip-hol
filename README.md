@@ -137,7 +137,7 @@ The administration page contains links to the tools an administrator uses such a
 
 # Connecting an MXChip IoT DevKit device to your Azure IoT Central application
 
-![](/media/mxchip.jpg)
+![](/media/mxchip.png)
 
 This article describes how, as a device developer, to connect a MXChip IoT DevKit (DevKit) device to your Microsoft Azure IoT Central application.
 
